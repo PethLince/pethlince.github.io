@@ -1,0 +1,121 @@
+
+* {box-sizing: border-box;}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
+    background: linear-gradient(rgb(60, 60, 145), rgb(25, 73, 71), rgb(88, 3, 88));
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: normal;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#About p{
+    color: #ffffff;
+}
+
+#left {
+    border-radius: 25px;
+    opacity: 0.5px;
+    max-width: 350px;
+    min-width: 200px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+
+#left img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+#About {
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(44, 44, 44, 0.5);
+    padding: 10px;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+header {
+    position: left;
+}
+
+footer{
+    font-size: small;
+}
+
+
+hr {
+    
+    border: dtted 2px #ffffff; 
+}
+
+
+#experience {
+    margin-top: 10px;
+    background-color: rgba(44, 44, 44, 0.5);
+    opacity: 0.5px;
+    border-radius: 25px;
+    top: 50px;
+    max-width: 600px;
+    min-width: 200px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+h2,
+h3{
+    font-size: medium;
+}
+
+#Additonal {
+    border-radius: 25px;
+    background-color: rgba(44, 44, 44, 0.5);
+    opacity: 0.5px;
+    width: 100%;
+    padding: 10px;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+header { 
+    align-items: center;
+}
+
+#contact {
+    text-align: left;
+    border-radius: 25px;
+    background-color: rgba(44, 44, 44, 0.5);
+    padding: 10px;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+nav {
+    display: block;
+    background-color: rgba(44, 44, 44, 0.5);
+    flex-direction: row;
+}
+
+a{
+    color: white;
+}
