@@ -123,7 +123,7 @@ a{
 }
 
 .wayfinding {
-        width: 560px;
+        width: 100%;
         height: 560px;
         overflow: hidden;
 }
@@ -144,7 +144,8 @@ a{
 
   model-viewer {
     max-width: 560px;
-    min-height: 560px;
+    min-width: 500px;
+    height: 560px;
     background-color: transparent;
   }
 
@@ -166,7 +167,6 @@ a{
 
 nav li{
     display: inline;
-    padding: 20px;
     margin: auto;
     font-size: large;
   }
@@ -187,5 +187,4 @@ nav a{
     background-color: rgba(44, 44, 44, 0.5);
     opacity: 0.5px;
     border-radius: 25px;
-
 }
