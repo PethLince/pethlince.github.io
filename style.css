@@ -160,3 +160,29 @@ a{
         font-size: 25px;
     
   }
+
+nav li{
+    display: inline;
+    padding: 20px;
+    margin: auto;
+    font-size: large;
+  }
+
+  nav{
+    margin: auto;
+    background: none;
+  }
+
+nav a:hover{
+    color: darkviolet;
+}
+
+nav a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgba(44, 44, 44, 0.5);
+    opacity: 0.5px;
+    border-radius: 25px;
+
+}
