@@ -191,10 +191,13 @@ nav li{
   nav{
     margin: auto;
     background: none;
+    display:inline-block;
+    top: 0;
   }
 
 nav a:hover{
-    color: darkviolet;
+    color: rgb(208, 199, 211);
+    background-color: rgb(62, 27, 95);
 }
 
 nav a{
