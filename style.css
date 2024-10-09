@@ -124,3 +124,20 @@ a{
         height: 560px;
         overflow: hidden;
 }
+
+.model {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    min-width: 560px;
+    min-height: 560px;
+    margin: 0;
+  }
+  
+  model-viewer {
+    width: 560px;
+    height: 560px;
+    background-color: transparent;
+    
+  }
