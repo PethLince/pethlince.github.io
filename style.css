@@ -78,7 +78,9 @@ h1{
     
 }
 
-h2,
+h2 {
+    font-size: 25px;
+}
 h3{
     font-size: medium;
 }
