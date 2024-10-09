@@ -19,7 +19,7 @@ body{
 #left {
     border-radius: 25px;
     opacity: 0.5px;
-    width: 600px;
+    max-width: 600px;
     min-width: 200px;
     padding: 10px;
     flex-grow: 1;
@@ -43,7 +43,8 @@ body{
     padding: 10px;
     margin-bottom: 20px;
     width: 100%;
-
+    max-width: 600px;
+    min-width: 200px;
 }
 
 header {
@@ -130,8 +131,10 @@ a{
 .model {
     justify-content: center;
     align-items: center;
-    width: 560px;
-    height: 560px;
+    max-width: 560px;
+    min-width: 430px;
+    max-height: 560px;
+    min-height: 560px;
     margin: 0;
   }
   
@@ -140,8 +143,8 @@ a{
 }
 
   model-viewer {
-    width: 560px;
-    height: 560px;
+    max-width: 560px;
+    min-height: 560px;
     background-color: transparent;
   }
 
