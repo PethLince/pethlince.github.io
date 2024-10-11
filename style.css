@@ -1,9 +1,12 @@
 
 * {box-sizing: border-box;}
-
+html, body {
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
-    background: linear-gradient(rgb(60, 60, 145), rgb(25, 73, 71), rgb(88, 3, 88));
+    background-color:#44498b;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,6 +15,34 @@ body{
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(/images/waves.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+
+}
+
+.waves img{
+    width: fit-content;
+    height: fit-content;
+}
+#profile img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;   
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    border: solid 3px #ffffff;
+}
+
 #About p{
     color: #ffffff;
 }
@@ -19,8 +50,8 @@ body{
 #left {
     border-radius: 25px;
     opacity: 0.5px;
-    max-width: 600px;
-    min-width: 200px;
+    max-width: 100%;
+    min-width: 60%;
     padding: 10px;
     flex-grow: 1;
     flex-direction: column;
@@ -29,22 +60,16 @@ body{
     align-content: center;
 }
 
-#left img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    margin: 20px;
-}
 
 #About {
     text-align: center;
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: rgba(44, 44, 44, 0.5);
     padding: 10px;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 600px;
-    min-width: 200px;
+    max-width: 100%;
+    min-width: 60%;
 }
 
 header {
@@ -66,11 +91,15 @@ hr {
     margin-top: 10px;
     background-color: rgba(44, 44, 44, 0.5);
     opacity: 0.5px;
-    border-radius: 25px;
+    border-radius: 5px;
     top: 50px;
-    max-width: 600px;
-    min-width: 200px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 60%;
     padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -87,13 +116,14 @@ h3{
 }
 
 #Additonal {
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: rgba(44, 44, 44, 0.5);
     opacity: 0.5px;
     width: 100%;
     padding: 10px;
     flex-grow: 1;
     flex-direction: row;
+    
 }
 
 header { 
@@ -102,14 +132,14 @@ header {
 
 #contact {
     text-align: left;
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: rgba(44, 44, 44, 0.5);
     padding: 10px;
     flex-grow: 1;
     flex-direction: row;
     margin-bottom: 20px;
     width: 100%;
-
+    margin-top: 50px;
 }
 
 nav {
@@ -123,10 +153,11 @@ a{
 }
 
 .wayfinding{
-        width: 100%;
+        width: 560px;
         overflow: hidden;
-        object-fit: cover;
+        object-fit: scale-down;
         margin: auto;
+        max-height: 560px;
 
 }
 
@@ -151,11 +182,11 @@ a{
     margin-top: 10px;
     background-color: rgba(44, 44, 44, 0.5);
     opacity: 0.5px;
-    border-radius: 25px;
+    border-radius: 5px;
     top: 50px;
     width: 100%;
     padding: 10px;
-    max-width: 600px;
+    max-width: 85%;
 
   }
 
@@ -183,28 +214,31 @@ a{
   }
 
 nav li{
-    display: inline;
+    display: inline-block;
+    position: sticky;
     margin: auto;
-    font-size: medium;
   }
 
   nav{
-    margin: auto;
+    width: 100%;
     background: none;
     display:inline-block;
-    top: 0;
-  }
+    background-color: rgba(44, 44, 44, 0.5);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
+    text-align: center;
+    
+}
 
 nav a:hover{
     color: rgb(208, 199, 211);
-    background-color: rgb(62, 27, 95);
+    background-color: #67568862;
 }
 
 nav a{
     text-decoration: none;
-    border: 1px solid white;
     padding: 10px;
-    background-color: rgba(44, 44, 44, 0.5);
-    opacity: 0.5px;
-    border-radius: 25px;
+    font-size: medium;
+    font-style: ;
 }
