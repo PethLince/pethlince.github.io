@@ -27,8 +27,6 @@ body{
     background-position: center center;
     background-size: 100%;
 
-
-
 }
 
 .waves img{
@@ -50,30 +48,18 @@ body{
     color: ##8B8644;
 }
 
-#left {
+#mainbody {
     border-radius: 25px;
     opacity: 0.5px;
     width: 100%;
     padding: 10px;
-    flex-grow: 1;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 
-
-#About {
-    text-align: center;
-    border-radius: 5px;
-    background-color: rgba(44, 44, 44, 0.5);
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 90%;
-    min-width: 60%;
-    margin-top: 50px;
-
-}
 
 header {
     position: left;
@@ -96,15 +82,10 @@ hr {
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    font-size: medium;
+    grid-column: 2 / 3;
 }
 
 h1{
@@ -126,35 +107,13 @@ h3{
     opacity: 0.5px;
     width: 80%;
     padding: 10px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+    grid-column: 1 / 2;
 }
 
 header { 
     align-items: center;
 }
 
-#contact {
-    text-align: left;
-    border-radius: 5px;
-    background-color: rgba(44, 44, 44, 0.5);
-    padding: 0;
-    margin: auto;
-    bottom: 0;
-    flex-grow: 1;
-    flex-direction: row;
-    width: 100%;
-    position: absolute;
-
-}
-
-#contact li {
-    display: inline-block;
-    padding: 10px;
-}
 
 nav {
     display: block;
@@ -166,48 +125,7 @@ a{
     color: white;
 }
 
-.wayfinding{
-        width: 560px;
-        overflow: hidden;
-        object-fit: scale-down;
-        margin: auto;
-        max-height: 560px;
 
-}
-
-.model {
-    width: 100%;
-    max-height: 560px;
-    min-height: 560px;
-  }
-  
-.model h2{
-    font-size: 25px;
-}
-
-  model-viewer {
-    width: 100%;
-    height: 560px;
-    background-color: transparent;
-    margin: auto;
-  }
-
-  .portfolio{
-    margin-top: 10px;
-    background-color: rgba(44, 44, 44, 0.5);
-    opacity: 0.5px;
-    border-radius: 5px;
-    top: 50px;
-    width: 80%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin-top: 50px;
-
-
-  }
 
   @media only screen and (max-with: 600px) {
     .portfolio{
@@ -251,6 +169,7 @@ nav li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
     text-align: center;
     border-bottom: #ffffff solid;
+
     
 }
 
@@ -261,14 +180,11 @@ nav a:hover{
 
 nav a{
     text-decoration: none;
-    padding: 15px;
-    font-size: 20px;
-    text-align: center;
+    padding: 10px;
+    font-size: medium;
 }
 
 .portfolio iframe{
-    min-width: 300px;
-    max-width: 100%;
-    min-height: 560px;
-    max-height: 100%;
+    width: 720px;
+    height: 560px;
 }
