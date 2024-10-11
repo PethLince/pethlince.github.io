@@ -192,7 +192,6 @@ a{
 
   .portfolio{
     margin-top: 10px;
-    background-color: rgba(44, 44, 44, 0.5);
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;
@@ -207,33 +206,7 @@ a{
 
   }
 
-  @media only screen and (max-with: 600px) {
-    .portfolio{
-        width: 100%;
-        height: 100%;
-    }
-    .portfolio iframe{
-        width: 100%;
-        height: 560px;
-    }
-    .model{
-        width: 100%;
 
-    }
-    model-viewer{ 
-        width: 100%;
-    }
-    .wayfinding{ 
-        width: 100%;
-    }
-    .banner{
-        background-image: none;
-    }
-      .portfolio h2{
-        font-size: 25px;
-    
-  }
-  }
 nav li {
     display: inline-block;
     margin: auto;
@@ -260,14 +233,68 @@ nav a:hover{
 
 nav a{
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     font-size: 20px;
     text-align: center;
 }
+
 
 .portfolio iframe{
     min-width: 300px;
     max-width: 100%;
     min-height: 560px;
     max-height: 100%;
+}
+
+.video{
+    margin-top: 10px;
+    background-color: rgba(44, 44, 44, 0.5);
+    opacity: 0.5px;
+    border-radius: 5px;
+    top: 50px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+
+}
+
+.wayfinding{
+    margin-top: 50px;
+    background-color: rgba(44, 44, 44, 0.5);
+    opacity: 0.5px;
+    border-radius: 5px;
+    top: 50px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+
+@media screen and (max-width: 600px){
+    .portfolio iframe{
+        width: 200px;
+        height: 560px;
+    }
+    model-viewer{ 
+        width: 200px;
+    }
+    .banner{
+        background-image: none;
+    }
+    .portfolio h2{
+        font-size: 25px;
+  }
 }

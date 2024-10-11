@@ -195,11 +195,10 @@ a{
 
   .portfolio{
     margin-top: 10px;
-    background-color: rgba(44, 44, 44, 0.5);
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -210,34 +209,6 @@ a{
 
   }
 
-  @media only screen and (max-with: 600px) {
-    .portfolio{
-        width: 100%;
-        height: 100%;
-    }
-    .portfolio iframe{
-        width: 100%;
-        height: 560px;
-    }
-    .model{
-        width: 100%;
-
-    }
-    model-viewer{ 
-        width: 100%;
-    }
-    .wayfinding{ 
-        width: 100%;
-    }
-    .banner{
-        background-image: none;
-    }
-      .portfolio h2{
-        font-size: 25px;
-    
-  }
-
-}
 nav li{
     display: inline-block;
     position: sticky;
@@ -276,13 +247,13 @@ nav a{
     max-height: 100%;
 }
 
-.video {
+.video{
     margin-top: 10px;
     background-color: rgba(44, 44, 44, 0.5);
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -298,7 +269,7 @@ nav a{
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -309,4 +280,28 @@ nav a{
     text-align: center;
     margin-top: 50px;
 
+
+}
+
+
+.portfolio iframe{
+    width: 800px;
+    height: 560px;
+}
+
+
+@media screen and (max-width: 600px){
+    .portfolio iframe{
+        width: 200px;
+        height: 560px;
+    }
+    model-viewer{ 
+        width: 200px;
+    }
+    .banner{
+        background-image: none;
+    }
+    .portfolio h2{
+        font-size: 25px;
+  }
 }
