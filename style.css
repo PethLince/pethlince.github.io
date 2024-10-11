@@ -142,13 +142,11 @@ header {
     border-radius: 5px;
     background-color: rgba(44, 44, 44, 0.5);
     padding: 0;
-    margin: auto;
     bottom: 0;
     flex-grow: 1;
     flex-direction: row;
     width: 100%;
-    position: absolute;
-
+    margin-top: 50px;
 }
 
 #contact li {
