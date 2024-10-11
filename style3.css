@@ -166,13 +166,13 @@ a{
     color: white;
 }
 
-.wayfinding{
-        width: 560px;
+.wayfinding img {
+        width: 100%;
         overflow: hidden;
         object-fit: scale-down;
         margin: auto;
-        max-height: 560px;
-
+        height: 100%;
+        border: #ffffff solid 1px;
 }
 
 .model {
@@ -271,4 +271,39 @@ nav a{
     max-width: 100%;
     min-height: 560px;
     max-height: 100%;
+}
+
+.video {
+    margin-top: 10px;
+    background-color: rgba(44, 44, 44, 0.5);
+    opacity: 0.5px;
+    border-radius: 5px;
+    top: 50px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+
+}
+
+.wayfinding{
+    margin-top: 50px;
+    background-color: rgba(44, 44, 44, 0.5);
+    opacity: 0.5px;
+    border-radius: 5px;
+    top: 50px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 50px;
+
 }
