@@ -44,7 +44,7 @@ body{
 }
 
 #About p{
-    color: #ffffff;
+    color: ##8B8644;
 }
 
 #left {
@@ -66,8 +66,10 @@ body{
     background-color: rgba(44, 44, 44, 0.5);
     padding: 10px;
     margin-bottom: 20px;
-    width: 80%;
+    width: 90%;
     min-width: 60%;
+    margin-top: 50px;
+
 }
 
 header {
@@ -99,6 +101,7 @@ hr {
     align-content: center;
     align-items: center;
     justify-content: center;
+    font-size: medium;
 }
 
 h1{
@@ -140,7 +143,6 @@ header {
     flex-direction: row;
     margin-bottom: 20px;
     width: 80%;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,14 +197,19 @@ a{
     flex-direction: column;
     align-items: center;
     align-content: center;
+    margin-top: 50px;
+
 
   }
 
-  @media only screen {
+  @media only screen and (max-with: 600px) {
     .portfolio{
+        width: 100%;
+        height: 100%;
     }
     .portfolio iframe{
-        min-width: 100%;
+        width: 100%;
+        height: 560px;
     }
     .model{
         width: 100%;
