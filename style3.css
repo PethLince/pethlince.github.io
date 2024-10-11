@@ -229,13 +229,15 @@ a{
     .wayfinding{ 
         width: 100%;
     }
-  }
-
-  .portfolio h2{
+    .banner{
+        background-image: none;
+    }
+      .portfolio h2{
         font-size: 25px;
     
   }
 
+}
 nav li{
     display: inline-block;
     position: sticky;

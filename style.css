@@ -226,16 +226,16 @@ a{
     .wayfinding{ 
         width: 100%;
     }
-  }
-
-  .portfolio h2{
+    .banner{
+        background-image: none;
+    }
+      .portfolio h2{
         font-size: 25px;
     
   }
-
-nav li{
+  }
+nav li {
     display: inline-block;
-    position: sticky;
     margin: auto;
   }
 
@@ -245,11 +245,12 @@ nav li{
     display:inline-block;
     background-color: rgba(44, 44, 44, 0.5);
     margin: 0;
+    bottom: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
     text-align: center;
     border-bottom: #ffffff solid;
-    
+
 }
 
 nav a:hover{
