@@ -154,17 +154,24 @@ nav li {
     display: inline-block;
     margin: auto;
     background-color: rgb(44, 44, 44);
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px
   }
 
 nav{
     width: 100%;
     background: none;
-    display:inline-block;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    min-width: 0;
+    flex-grow: 1;
     margin: 0;
     bottom: 0;
-    padding: 0;
+    padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
     text-align: center;
     border-bottom: #ffffff solid;
