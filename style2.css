@@ -130,11 +130,12 @@ a{
   }
 }
 
-nav li {
+nav li{
     display: inline-block;
     margin: auto;
     background-color: rgb(44, 44, 44);
-
+    margin-top: 10px;
+    margin-bottom: 10px
   }
 
   nav{
@@ -173,4 +174,21 @@ nav a{
 .portfolio iframe{
     width: 720px;
     height: 560px;
+}
+
+
+#contact {
+    text-align: left;
+    background-color: rgb(44, 44, 44);
+    padding: 0;
+    bottom: 0;
+    flex-grow: 1;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#contact li {
+    display: inline-block;
+    padding: 10px;
 }
