@@ -25,9 +25,9 @@
 <div class="portfolio">
 <div class="wayfinding">
       <h2>Wayfinding model</h1>
+    <div id="model">
         Wayfinding 3D model created in Blender and implemented in HTML with CSS and JavaScript.
         The model is used on daily basis in the reception of Delivery Hero for the visitors, improving the wayfinding process.
-        <div id="model">
             <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js" >
         </script>
             <model-viewer  src="models/deliveryherowip.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.5" exposure="0.50" environment-image="legacy"  camera-orbit="22.14deg 81.97deg 44.48m" field-of-view="22.98deg" min-camera-orbit="auto 65deg auto" max-camera-orbit="auto 93deg auto" disable-pan> 
@@ -43,10 +43,12 @@
                 </button>
             </model-viewer>
             <br>
+            <div id="display">
             <h3>The model display: </h3>
             <br>
             <p><img id="wayfindigpicture" src="../images/wayfinding1.jpg">
-        </div> 
+            </div>
+            </div> 
     </div>
 <div class="video">
       <h2>Altar</h2>
