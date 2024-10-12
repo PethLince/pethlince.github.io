@@ -143,14 +143,13 @@ hr {
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;
-    width: 100%;
+    width: 50%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     margin-top: 50px;
-
 
   }
 
@@ -225,6 +224,9 @@ hr {
         width: 200px;
         height: 560px;
     }
+    .portfolio{
+    width: 100%
+}
     model-viewer{ 
         width: 300px;
     }
