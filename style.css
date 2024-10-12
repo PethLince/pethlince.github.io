@@ -21,16 +21,6 @@ body{
 
 }
 
-.banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-repeat: repeat;
-    background-position: center center;
-    background-size: 30%
-}
 
 #profile img{
     border-radius: 50%;
@@ -121,22 +111,6 @@ hr {
 }
 
 
-.experience {
-    margin-top: 10px;
-    background-color: rgba(44, 44, 44, 0.5);
-    opacity: 0.5px;
-    border-radius: 5px;
-    top: 50px;
-    width: 80%;
-    padding: 10px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    font-size: medium;
-}
 
 h1{
     font-size: 30px;
@@ -149,19 +123,6 @@ h2 {
 }
 h3{
     font-size: medium;
-}
-
-#Additonal {
-    border-radius: 5px;
-    background-color: rgba(44, 44, 44, 0.5);
-    opacity: 0.5px;
-    width: 80%;
-    padding: 10px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
 }
 
 header { 
@@ -195,54 +156,12 @@ a{
     color: white;
 }
 
-.wayfinding{
-        width: 560px;
-        overflow: hidden;
-        object-fit: scale-down;
-        margin: auto;
-        max-height: 560px;
-
-}
-
-.model {
-    width: 100%;
-    max-height: 560px;
-    min-height: 560px;
-  }
-  
-.model h2{
-    font-size: 25px;
-}
-
-  model-viewer {
-    width: 100%;
-    height: 560px;
-    background-color: transparent;
-    margin: auto;
-  }
-
-  .portfolio{
-    margin-top: 10px;
-    opacity: 0.5px;
-    border-radius: 5px;
-    top: 50px;
-    width: 80%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin-top: 50px;
-
-
-  }
-
-
 nav li {
     display: inline-block;
     margin: auto;
     background-color: rgb(44, 44, 44);
-
+    margin-top: 10px;
+    margin-bottom: 10px
   }
 
   nav{
@@ -260,11 +179,11 @@ nav li {
     background-size: 25%;
     background-color: rgb(44, 44, 44);
     background-image: url(images/tlo2.png);
-
+    word-spacing: 10px;
 }
 
 nav a:hover{
-    color: rgb(208, 199, 211);
+    color: white;
     background-color:#688fa5;
 }
 
@@ -273,50 +192,9 @@ nav a{
     padding: 10px;
     font-size: 20px;
     text-align: center;
-}
-
-
-.portfolio iframe{
-    min-width: 300px;
-    max-width: 100%;
-    min-height: 560px;
-    max-height: 100%;
-}
-
-.video{
-    margin-top: 10px;
-    background-color: rgba(44, 44, 44, 0.5);
-    opacity: 0.5px;
-    border-radius: 5px;
-    top: 50px;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin-top: 50px;
-
-}
-
-.wayfinding{
-    margin-top: 50px;
-    background-color: rgba(44, 44, 44, 0.5);
-    opacity: 0.5px;
-    border-radius: 5px;
-    top: 50px;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    margin-top: 50px;
-
-
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: black;
 }
 
 
