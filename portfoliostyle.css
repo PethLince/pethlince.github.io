@@ -255,7 +255,7 @@ nav a{
 
 .video{
     margin-top: 10px;
-    background-color: rgba(44, 44, 44, 0.5);
+    background-color: rgba(44, 44, 44, 0.863);
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;
@@ -271,7 +271,7 @@ nav a{
 
 .wayfinding{
     margin-top: 50px;
-    background-color: rgba(44, 44, 44, 0.5);
+    background-color: rgba(44, 44, 44, 0.863);
     opacity: 0.5px;
     border-radius: 5px;
     top: 50px;

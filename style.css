@@ -315,6 +315,12 @@ nav a{
 
 
 @media screen and (max-width: 600px){
+    .body{
+        background-image:none;
+    }
+    #About{
+        width: 100%;
+    }
     .portfolio iframe{
         width: 200px;
         height: 560px;
@@ -328,4 +334,5 @@ nav a{
     .portfolio h2{
         font-size: 25px;
   }
+
 }
