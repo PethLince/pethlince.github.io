@@ -73,7 +73,6 @@ nav a{
     height: 350px;   
     z-index: 1;
     position: relative;
-    top: 100px;
     border: solid 3px #ffffff ;
     background-color: #ffffff;
 }
