@@ -32,26 +32,16 @@ body{
     background-size: 30%
 }
 
-
-
-.waves img{
-    width: fit-content;
-    height: fit-content;
-}
 #profile img{
     border-radius: 50%;
     width: 350px;
     height: 350px;   
     z-index: 1;
     position: relative;
-    top: 100px;
     border: solid 3px #ffffff ;
     background-color: #ffffff;
 }
 
-#About p{
-    color: ##8B8644;
-}
 
 #left {
     border-radius: 25px;
@@ -89,6 +79,22 @@ body{
     justify-items: end;
     align-items: end;
 }
+
+#introduction ul{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+#introduction li{
+    display: inline-block;
+    font-size: large;
+}
+
+
 #pose img{
     height: auto;
 }
