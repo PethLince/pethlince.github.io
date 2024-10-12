@@ -6,7 +6,7 @@ html, body {
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
-    background-color:#44498b;
+    background-color:#688fa5;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,6 +14,11 @@ body{
     align-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    background-image: url(images/tlo1.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: 25%;
+
 }
 
 .banner {
@@ -22,12 +27,12 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: url(/images/waves.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center center;
-    background-size: 100%;
-
+    background-size: 30%
 }
+
+
 
 .waves img{
     width: fit-content;
@@ -41,7 +46,7 @@ body{
     position: relative;
     top: 100px;
     border: solid 3px #ffffff ;
-    box-shadow: 0 0 10px 5px #052435;
+    background-color: #ffffff;
 }
 
 #About p{
@@ -145,35 +150,41 @@ a{
   }
 }
 
-nav li{
+nav li {
     display: inline-block;
-    position: sticky;
     margin: auto;
+    background-color: rgb(44, 44, 44);
+
   }
 
   nav{
     width: 100%;
     background: none;
     display:inline-block;
-    background-color: rgba(44, 44, 44, 0.5);
     margin: 0;
+    bottom: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; color: rgba(255, 255, 255, 0.932);
     text-align: center;
     border-bottom: #ffffff solid;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: 25%;
+    background-color: rgb(44, 44, 44);
+    background-image: url(images/tlo2.png);
 
-    
 }
 
 nav a:hover{
     color: rgb(208, 199, 211);
-    background-color: #67568862;
+    background-color:#688fa5;
 }
 
 nav a{
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
+    text-align: center;
 }
 
 .portfolio iframe{
